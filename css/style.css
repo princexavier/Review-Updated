@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#home-section {
+    position: relative;
+}
+
+#home-section video {
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+header{
+    transition: 1s;
+    padding: 20px 80px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.introductory-content {
+    padding: 160px 0px 0px 0px;
+}
+
+.introductory-content h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.introductory-content p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.getstart-btn {
+    margin-left: 40%;
+    text-decoration: none;
+    padding: 30px 60px;
+    background: #0f8d30;
+    border-radius: 50px;
+    color: white;
+    margin-top: 33px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.getstart-btn:hover {
+    background: #007549;
+}
+
